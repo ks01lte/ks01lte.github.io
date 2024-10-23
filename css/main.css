@@ -1,9 +1,9 @@
-* {
-    list-style: none;
-    text-decoration: none;
-    border-collapse: collapse;
-    margin: 0px;
-    padding: 0px;
+*{
+    list - style: none;
+    text - decoration: none;
+    border - collapse: collapse;
+    margin: 0 px;
+    padding: 0 px;
     color: #000;
     font-family: 'Noto Sans KR', sans-serif; 
 }
@@ -55,128 +55,128 @@ img{
     width: 250px;
     height: 40px;
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
-    padding-left: 10px;
+    color: # fff;
+    padding - left: 10 px;
 }
 
-.searchArea form span{
-    width: 50px;
+.searchArea form span {
+    width: 50 px;
     color: #fff;
-    font-weight: bold;
+    font - weight: bold;
     cursor: pointer;
 }
 
-.nav{
+.nav {
     display: flex;
-    justify-content: flex-end;
-    line-height: 86px;
-    width: calc(1280px - 50px);
+    justify - content: flex - end;
+    line - height: 86 px;
+    width: calc(1280 px - 50 px);
 }
 
-.nav1{
+.nav1 {
     display: flex;
-    justify-content: flex-end;
-    line-height: 86px;
-    width: calc(1280px - 50px);
+    justify - content: flex - end;
+    line - height: 86 px;
+    width: calc(1280 px - 50 px);
 }
 
-.nav li{
-    margin-left: 84px;
+.nav li {
+    margin - left: 84 px;
 }
 
-.nav li a{
+.nav li a {
     color: #fff;
-    font-size: 20px;
+    font - size: 20 px;
 }
 
-.nav1 li{
-    margin-left: 84px;
+.nav1 li {
+    margin - left: 84 px;
 }
 
-.nav1 li a{
+.nav1 li a {
     color: rgb(240, 108, 108);;
-    font-size: 20px;
+    font - size: 20 px;
 }
 
-.intro_text{
-    width: 100%;
-    margin: 231px auto 231px auto;
-    text-align: center;
+.intro_text {
+    width: 100 % ;
+    margin: 231 px auto 231 px auto;
+    text - align: center;
 }
 
-.intro_text1{
-    width: 100%;
-    margin: 231px auto 231px auto;
-    text-align: center;
+.intro_text1 {
+    width: 100 % ;
+    margin: 231 px auto 231 px auto;
+    text - align: center;
 }
 
-.intro_text h1, .intro_text h4{
+.intro_text h1, .intro_text h4 {
     color: white;
 }
 
-.intro_text1 h1, .intro_text1 h4{
-    color:rgb(240, 108, 108);
+.intro_text1 h1, .intro_text1 h4 {
+    color: rgb(240, 108, 108);
 }
 
-.main_text0{
-    width: 100%;
-    height: 659px;
+.main_text0 {
+    width: 100 % ;
+    height: 659 px;
 }
 
-.main_text0 h1{
-    text-align: center;
-    padding-top: 50px;
+.main_text0 h1 {
+    text - align: center;
+    padding - top: 50 px;
 }
 
-.main_text0 .contents1{
-    text-align: center;
-}
+.main_text0.contents1 {
+        text - align: center;
+    }
 
-.service{
-    width: 1180px;
-    display: flex;
-    margin: 49px auto;
-    height: 427px;
-}
+    .service {
+        width: 1180 px;
+        display: flex;
+        margin: 49 px auto;
+        height: 427 px;
+    }
 
-.service .contents2{
-    padding: 20px;
-    font-size: 16px;
-}
+    .service.contents2 {
+        padding: 20 px;
+        font - size: 16 px;
+    }
 
-.service .contents2 h2{
-    margin-bottom: 27px;
-}
+    .service.contents2 h2 {
+        margin - bottom: 27 px;
+    }
 
-.service .contents2 a{
-    color: blue;
-}
-.main_text1 {
-    width: 100%;
-    height: 418px;
-    background-image: url('../images_/kfood1.jpg');
-}
+    .service.contents2 a {
+        color: blue;
+    }
+    .main_text1 {
+        width: 100 % ;
+        height: 418 px;
+        background - image: url('../images_/kfood1.jpg');
+    }
 
-.main_text1 ul{
-    display: flex;
-    padding-top: 138px;
-}
+    .main_text1 ul {
+        display: flex;
+        padding - top: 138 px;
+    }
 
-.main_text1 ul li{
-    flex: 1;
-    text-align: center;
-}
+    .main_text1 ul li {
+        flex: 1;
+        text - align: center;
+    }
 
-.mainbutton{
-    width: 220px;
-    height: 40px;
-    line-height: 40px;
-    margin: 16px auto;
-    border: 1px solid black;
-    cursor: pointer;
-}
+    .mainbutton {
+        width: 220 px;
+        height: 40 px;
+        line - height: 40 px;
+        margin: 16 px auto;
+        border: 1 px solid black;
+        cursor: pointer;
+    }
 
-footer{
+footer {
     display: flex;
     background: #1f1f1f;
     padding: 30px;
@@ -214,16 +214,16 @@ footer div img{
     top: calc(200px);
     width: 300px;
     height: 450px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    background: # fff;
+    padding: 20 px;
+    border - radius: 10 px;
 }
 
-.popup h2{
-    text-align: center;
+.popup h2 {
+    text - align: center;
     color: rgb(158, 158, 157);
 }
 
-.popup h3{
-    margin-bottom: 30px;
+.popup h3 {
+    margin - bottom: 30 px;
 }
