@@ -43,9 +43,9 @@
 -   CSS
 -   JS
 
-##### IDE
+##### Tool
 
--   Visual Studio Code
+-   Notepad ++
 
 
 ##### Library
@@ -54,5 +54,5 @@
 
 ##### API
 
--   kakao map (예정)
--   YouTube Player API (예정)
+-   kakao map
+-   YouTube Player API
