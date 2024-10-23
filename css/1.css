@@ -1,0 +1,170 @@
+
+.goHome {
+  color: white !important;
+}
+
+.area1 {
+  margin-top: 90px;
+  text-align: center;
+}
+.area1 img {
+  width: 35vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+a:hover {
+  color: rgba(187, 0, 0, 0.801);
+}
+.go {
+  margin-top: 20px;
+}
+
+
+.area2 {
+  margin-top: 60px;
+  text-align: center;
+}
+.area2 img {
+  width: 25vw;
+  margin-bottom: 20px;
+}
+.score {
+  color: red;
+}
+
+
+
+.hide {
+  margin-top: 60px;
+  margin: 0 240px;
+}
+.area3 {
+  height: 0;
+  display: none;
+}
+.hide,
+#time {
+  text-align: center;
+  cursor: pointer;
+  color: gray;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.hide span,
+#time span {
+  text-shadow: none;
+  font-weight: 900;
+  color: rgba(255, 0, 0, 0.712);
+}
+
+.show {
+  display: block;
+  height: fit-content;
+}
+
+.area3 {
+  width: 60vw;
+  margin-top: 60px;
+  margin: 0 20vw;
+}
+.area3 h2 {
+  font-weight: 700;
+}
+.area3 .best {
+  margin-top: 30px;
+  display: flex;
+}
+.area3 img {
+  width: 300px;
+}
+.area3 .text {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 600px;
+}
+.text p {
+  font-weight: 700;
+}
+
+.good1,
+.good2{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+
+
+.area4 {
+  text-align: center;
+  margin-top: 80px;
+}
+.area4 h3,
+.area5 h3 {
+  color: black;
+  text-shadow: none;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.area5 {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.area5 .material-icons-sharp {
+  font-weight: 700;
+  font-size: 28px;
+}
+.area5 button {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 5px 90px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px;
+}
+.area5 button:active {
+  margin-left: 5px;
+  margin-top: 5px;
+  box-shadow: none;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(104, 104, 104, 0.863);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  margin-top: 60px;
+  text-align: center;
+}
+.video p{
+  font-weight: 700;
+  font-size: large;
+  border-bottom: orange double 3px;
+  width: fit-content;
+  margin-left: 40%;
+}
+iframe {
+  width: 50vw;
+  height: 30vw;
+}
