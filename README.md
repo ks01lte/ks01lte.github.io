@@ -1,15 +1,14 @@
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
 
   <h2 align="center">사나없이사나마나샤샤샤조</h2>
-  <h3 align="center">안산 뭐먹지 ?</h3> 
+  <h3 align="center">안산대 뭐 먹지 ?</h3> 
 
   <p align="center">
     <a href="https://ks01lte.github.io/">🏠https://ks01lte.github.io/</a>
     <br /><br>
-    안산 맛집을 구경할 수 있는 맛집 사이트
+    안산대학교 주변 맛집들을 구경할 수 있는 맛집 사이트
     <br />
     </a>
     <br />
@@ -20,14 +19,15 @@
 
 ## Team Members
 
-👩‍💻 202351512 장동민, 202351501 고주현
+👩‍💻 202351501 고주현
+👩‍💻 202351512 장동민
 
 
 ## About The Project
 
-<strong>"안산 뭐 먹지 ?" </strong>는 경기도 안산시의 (상록구와 단원구에 있는) 맛집들을 소개 하는 사이트 입니다 . <br>
-한식 / 양식 / 중식 / 일식 별로 대표 맛집을 추천해드리고 있습니다 . <br>
-카테고리별로 페이지의 기능들이 다르니 하나씩 재미있게 구경해주세요 !
+<strong>"안산대 뭐 먹지 ?" </strong>는 안산대학교 주변 (상록수역, 일동 주변) 맛집들을 소개 하는 사이트 입니다. <br>
+한식 / 양식 / 중식 / 일식 별로 대표 맛집을 추천해드리고 있습니다. <br>
+카테고리별로 페이지의 기능들이 다르니 하나씩 재미있게 구경해주세요!
 
 
 ### Preview
@@ -54,5 +54,5 @@
 
 ##### API
 
--   kakao map
+-   Kakao Map
 -   YouTube Player API
