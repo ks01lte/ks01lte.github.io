@@ -11,13 +11,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
     <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/2.css" />
     <script defer src="./js/mini.js"></script>
 	<link rel="shortcut icon" href="./images/shortcut.png">
 </head>
+<style>
+    body {
+        background-image: url('./images/wall1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+	    .animate__animated.animate__fadeIn {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,10 +43,12 @@
             </div>
         </div>
     </nav>
+	<div class="animate__animated animate__fadeIn">
     <section class="contaier">
         <article id="content">
             <div class="inner">
                 <div class="hgroup">
+				
                     <div class="category">양식</div>
                     <h1>[안산 파스타 피자 맛집] 스푼위에포크 리뷰 !</h1>
                     <div class="post-meta">

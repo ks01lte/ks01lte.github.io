@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>윤초밥</title>
-
-
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script defer src="./js/main.js"></script>
@@ -16,7 +14,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/shortcut.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+<style>
+    body {
+        background-image: url('./images/wall1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+	    .animate__animated.animate__fadeIn {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+
+    }
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,12 +51,14 @@
                 </form>
             </div> -->
             </div>
+			<div class="animate__animated animate__fadeIn">
             <div class="intro_text">
                 <h1>일식 맛집, 초밥집 맛집</h1>
                 <h4 class="contents1">안산대학교 근처 초밥집 맛집 !</h4>
             </div>
         </div>
         <div class="main_text0" style="background-color: #e7e7e7;">
+		    <div class="animate__animated animate__fadeIn">
             <h1>윤초밥</h1>
             <div class="contents1">일동 안산대학교 근처 초밥집 맛집</div>
             <div class="service">
