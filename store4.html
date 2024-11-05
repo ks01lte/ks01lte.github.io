@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어울림돌솥밥</title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/1.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./js/1.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<style>
+    body {
+        background-image: url('./images/wall1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .animate__animated.animate__zoomIn {
+        --animate-delay: 1s;
+        --animate-duration: 1s;
+
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="/">안산대 뭐 먹지 ?</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/ks01lte/ks01lte.github.io">사나없이사나마나샤샤샤조</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="animate__animated animate__zoomIn">
+        <section class="mainArea area1">
+            <h1 id="time">⭐ 어울림돌솥밥 ⭐</h1><br>
+            <img src="./4/1.jpg" alt="">
+            <div class="go"><br>
+                <a href="https://map.naver.com/p/entry/place/31011029?c=15.00,0,0,0,dh&placePath=/review" target='_blank'>
+                    가게정보 바로가기 <span class="material-icons-outlined">mouse</span></a>
+            </div><br>
+            <hr>
+        </section>
+
+        <section class="mainArea area2">
+            <h2 id="time">⚡ 평점 ⚡</h2><br>
+            <img src="./4/2.png" alt="">
+            <div>네이버 평은 <span class="score">4.5</span>점입니다. <br>리뷰를 보았을 때 맛 / 재료 / 친절 / 가성비 / 양 부분의 만족도가 높습니다 !</div>
+            <br>
+            <hr>
+        </section>
+
+        <section class="mainArea area3 show">
+            <br>
+            <h2 id="time">🔥 BEST MENU 1 🔥</h2>
+            <div class="best">
+                <div class="image"><img src="./4/3.jpg" alt=""></div>
+                <video controls width="299" autoplay muted loop preload>
+                    <source src="4/33.mp4" type="video/mp4"></video>
+                <div class="text">
+                    <p>** 돌솥 꼬막 비빔밥</p>
+                    꼬막살이 통통해 밥 한수저에 올려 맛보시면 매콤한 꼬막무침의 식감이 최고예요!! <br>좀 드신 다음 고추장과 참기름을 넣어 비벼 드시면 입안에서 제철 나물들과 함께 맛의 향연이 벌어진답니다.
+                    <br><br>\13,000
+                    <br><br>⭐⭐⭐⭐⭐
+                </div>
+                <div class="good1">메뉴 추천<span class="material-icons-outlined">thumb_up_off_alt</span> <span class="num">312</span>
+                </div>
+            </div>
+            <br><br>
+            <h2 id="time">🔥 BEST MENU 2 🔥</h2>
+            <div class="best">
+                <div class="image"><img src="./4/4.jpg" alt=""></div>
+                <video controls width="299" autoplay muted loop preload>
+                    <source src="4/444.mp4" type="video/mp4"></video>
+                <div class="text">
+                    <p>** 돌솥 문어볶음 정식</p>
+                  가위나 집게를 이용해 문어를 먹기 좋게 잘라 드셔보시면<br> 매콤 달콤 불향 가득한 부드럽고 쫄깃한 식감의 문어볶음이 입에 착착 감겨요.
+                    <br><br>\16,000
+                    <br><br>⭐⭐⭐⭐⭐
+                </div>
+                <div class="good2">메뉴 추천
+                    <span class="material-icons-outlined">thumb_up_off_alt</span>
+                    <span class="num2">203</span>
+                </div>
+            </div><br><br>
+            <hr>
+        </section>
+
+        <section class="mainArea area4">
+            <section class="video">
+                <h2 id="time">🌌 참고 영상 🌌</h2><br>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/dGXXbZVe7X0" title="안산의 맛집을 찾아서ㅡ어울림 돌솥밥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br><br>
+                <hr>
+            </section>
+
+            <section class="mainArea area5">
+                <br>
+                <h2 id="time">☄️ 위치 정보 ☄️</h2><br>
+                <center>
+					<div id="daumRoughmapContainer1730806188880" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+					<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+					<script charset="UTF-8">
+						new daum.roughmap.Lander({
+							"timestamp" : "1730806188880",
+							"key" : "2m5mc",
+							"mapWidth" : "640",
+							"mapHeight" : "360"
+						}).render();
+					</script>
+                </center>
+                <br><span class="material-icons-sharp">watch_later</span> 영업 시간 <span class="material-icons-sharp">watch_later</span><br><br>
+                월<br>
+                11:00 - 16:00<br>
+                15:00 라스트오더<br><br>
+                화<br>
+                 11:00 - 16:00<br>
+                15:00 라스트오더<br><br>
+                수<br>
+                 11:00 - 16:00<br>
+                15:00 라스트오더<br><br>
+                목<br>
+                 11:00 - 16:00<br>
+                15:00 라스트오더<br><br>
+                금<br>
+                 11:00 - 16:00<br>
+                15:00 라스트오더<br><br>
+                토<br>
+          	11:00 - 21:00<br>
+                20:00 라스트오더<br><br>
+                일<br>
+               정기휴무 (매주 일요일)<br><br>
+            </section>
+    </div>
+    <div class="to-top">
+        <div class="material-icons">arrow_upward</div>
+    </div>
+</body>
+
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Copyright &copy; 사나없이사나마나샤샤샤조</p>
+        </div>
+    </footer>
+
+</html>
