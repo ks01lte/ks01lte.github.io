@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>용마루 손짜장</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/3.css" />
+    <script defer src="./js/mini.js"></script>
+    <link rel="shortcut icon" href="./images/shortcut.png">
+</head>
+
+<style>
+    body {
+        background-image: url('./images/wall1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .animate__animated.animate__fadeIn {
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+
+    }
+</style>
+
+<body id="menu" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://ks01lte.github.io/index.html">　　　　　　　　　　　　　　　안산대 뭐 먹지 ?</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/ks01lte/ks01lte.github.io">사나없이사나마나샤샤샤조　　　　　　　　　　　　　　　　　　　　　　</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="animate__animated animate__fadeIn">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./8/11.jpg" alt="pasta">
+                    <div class="carousel-caption">
+                        <h3>용마루 손짜장</h3>
+                        <p>손으로 직접 뽑은 수타 손짜장 !</p>
+                        <p>가격 : 5,000원</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./8/12.jpg" alt="pizza">
+                    <div class="carousel-caption">
+                        <h3>새우 볶음밥</h3>
+                        <p>중식하면 또 빠질 수 없는게 볶음밥이지요 !</p>
+                        <p>가격 : 10,000원</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./8/13.jpg" alt="risotto">
+                    <div class="carousel-caption">
+                        <h3>탕수육</h3>
+                        <p>탕수육 주실때 특이하게 소금을 주시는데 찍어먹으면 기깔납니다 ..</p>
+                        <p>가격 : 16,000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div id="description" class="container text-center">
+            <h3>안산대학교 근처 중식 맛집</h3>
+            <p><em>용마루 손짜장</em></p>
+            <p>안산 일동에 위치한 용마루 손짜장입니다 ! 겉보기에는 정말 소박해 보여도 여기는 재야의 고수의 집입니다 !</p>
+            <p>역시 손짜장집 하면 수타면으로 직접 뽑은 손짜장이 진리지요 ~ 볶음밥도 같이 시켜 먹으면 그야말로 꿀맛입니다 !</p>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>1. 용마루 면 류 가격</strong></p><br>
+                    <a href="#demo" data-toggle="collapse">
+                        <img src="./8/14.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                    </a>
+                    <div id="demo" class="collapse">
+                        <p>손짜장 6,000원</p>
+                        <p>짬뽕 7,000원</p>
+                        <p>간짜장 7,000원</p>
+                        <p>우동 7,000원</p>
+                        <p>울면 8,000원</p>
+                        <p>콩국수 (계절 메뉴) 8,000원</p>
+                        <p>삼선간짜장 10,000원</p>
+                        <p>삼선짬뽕 10,000원</p>
+                        <p>삼선우동 10,000원</p>
+                        <p>백짬뽕 10,000원</p>
+                        <p>삼선울면 11,000원</p>
+                        <p>쟁반짜장 2人 15,000원</p>
+                        <p>쟁반짬뽕 2人 16,000원</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>2. 용마루 밥 류 가격</strong></p><br>
+                    <a href="#demo2" data-toggle="collapse">
+                        <img src="./8/15.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                    </a>
+                    <div id="demo2" class="collapse">
+                        <p>짜장밥 7,000원</p>
+                        <p>볶음밥 7,000원</p>
+                        <p>짬뽕밥 7,000원</p>
+                        <p>잡채밥 9,000원</p>
+                        <p>삼선볶음밥 10,000원</p>
+                        <p>새우볶음밥 10,000원</p>
+                        <p>송이덮밥 10,000원</p>
+                        <p>고추잡채밥 10,000원</p>
+                        <p>삼선짬뽕밥 11,000원</p>
+                        <p>유산슬밥 13,000원</p>
+                        <p>잡탕밥 13,000원</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>3. 용마루 요리 류 가격</strong></p><br>
+                    <a href="#demo3" data-toggle="collapse">
+                        <img src="./8/16.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+                    </a>
+                    <div id="demo3" class="collapse">
+                        <p>탕수육 小 16,000원</p>
+                        <p>탕수육 中 21,000원</p>
+                        <p>탕수육 大 26,000원</p>
+                        <p>술국 15,000원</p>
+                        <p>양장피 35,000원</p>
+                        <p>팔보채 35,000원</p>
+                        <p>깐풍기 35,000원</p>
+                        <p>라조기 35,000원</p>
+                        <p>고추잡채 35,000원</p>
+                        <p>유산슬 35,000원</p>
+                        <p>깐쇼새우 40,000원</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="youtube" class="bg-1">
+            <div class="container">
+                <h3 class="text-center">직접 손으로 쳐서 만드시는 수타면!</h3>
+                <p class="text-center">수타면은 꼭 홀에서 먹어야한다는 점</p>
+                <div class="youtube__area">
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/mVpNbbLzBv0" title="수타면은 역시 홀에서 먹는 걸로 #짜장면  #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="map" class="container">
+            <h3 class="text-center">map</h3><br>
+            <div id="daumRoughmapContainer1731309019406" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp": "1731309019406",
+                    "key": "2m79o",
+                    "mapWidth": "640",
+                    "mapHeight": "360"
+                }).render();
+            </script>
+            <br>
+            <p class="text-center"><em>위치정보도 한번 확인하세요 !</em></p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <br><br>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> 경기 안산시 상록구 구룡로 33-1</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> Phone : 031-415-7978</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> 음식종류 : 손짜장 / 짬뽕 / 탕수육 / 볶음밥</p>
+                    <p><span class="glyphicon glyphicon-list-alt"></span> 영업시간 : 화 - 일 : 11:00 ~ 21:00<br>　　　　　　정기휴무 (월요일) </p><br>
+                    <div class="col-md-8">
+                        <div id="daumRoughmapContainer1631562761307" class="root_daum_roughmap root_daum_roughmap_landing">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+
+                <div class="ajax_list">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="promotion">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./8/17.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/18.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/19.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/20.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/21.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/22.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/23.jpg" />
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./8/24.jpg" />
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-prev">
+                <span class="material-icons">arrow_back</span>
+            </div>
+            <div class="swiper-next">
+                <span class="material-icons">arrow_forward</span>
+            </div>
+
+        </div>
+        <footer class="text-center">
+            <a class="up-arrow" href="#menu" data-toggle="tooltip" title="TO TOP">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <p>Copyright © 사나없이사나마나샤샤샤조</p><br>
+        </footer>
+</body>
+
+</html>
