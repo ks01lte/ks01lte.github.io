@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>윤초밥</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script defer src="./js/main.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="./images/shortcut.png">
+    <title>마루부리또</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/2.css" />
+    <script defer src="./js/mini.js"></script>
+	<link rel="shortcut icon" href="./images/shortcut.png">
 </head>
 <style>
     body {
@@ -33,7 +36,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container px-5">
             <a class="navbar-brand" href="https://ks01lte.github.io/index.html">안산대 뭐 먹지 ?</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link" href="https://github.com/ks01lte/ks01lte.github.io">사나없이사나마나샤샤샤조</a></li>
@@ -41,125 +43,99 @@
             </div>
         </div>
     </nav>
-    <div class="wrap">
-        <div class="intro_bg">
-            <div class="header">
-                <!-- <div class="searchArea">
-                <form action="">
-                    <input type="search" placeholder="Search">
-                    <span>검색</span>
-                </form>
-            </div> -->
-            </div>
-			<div class="animate__animated animate__fadeIn">
-            <div class="intro_text">
-                <h1>일식 맛집, 초밥집 맛집</h1>
-                <h4 class="contents1">안산대학교 근처 초밥집 맛집 !</h4>
-            </div>
-        </div>
-        <div class="main_text0" style="background-color: #e7e7e7;">
-		    <div class="animate__animated animate__fadeIn">
-            <h1>윤초밥</h1>
-            <div class="contents1">일동 안산대학교 근처 초밥집 맛집</div>
-            <div class="service">
-                <div class="food_photo">
-                    <img src="./3/2.jpg" alt="food">
+	<div class="animate__animated animate__fadeIn">
+    <section class="contaier">
+        <article id="content">
+            <div class="inner">
+                <div class="hgroup">
+				
+                    <div class="category">양식</div>
+                    <h1>[안산 부리또 맛집] 마루부리또 리뷰 !</h1>
+                    <div class="post-meta">
+                        <span class="author">장동민</span>
+                        <span class="date">2024년 11월 25일</span>
+                    </div>
                 </div>
-                <div class="contents2">
-                    <h2>내돈 내산 찐 리뷰 !</h2>
-                    일동 안산대학교 근처 근처오면 꼭 생각나는 초밥 <a href="https://map.naver.com/p/search/%EC%9C%A4%EC%B4%88%EB%B0%A5/place/1512710340?placePath=?entry=pll&from=nx&fromNxList=true&searchType=place&c=15.00,0,0,0,dh" title="경기 안산시 상록구 구룡로 7 서원 102호">윤초밥</a> !
-                    <br>
-                    <br>안산대학교 근처 입니다 !
-                    <br>초밥을 정말 좋아해서 한번 와봤습니다.
-                    <br>
-                    <br>사장님이 젊은 남자분이신데 엄청 친절하시고 일식 요리 짱잘하시는듯 ㅋㅋ
-                    <br>
-                    <br>자세한 설명과 초밥만 있는게 아닌 다른 맛있는 메뉴도 많았어요.
-                    <br>에피타이저는 된장국, 샐러드가 나왔어요.
-                    <br>위에는 요거트 드레싱이 뿌려져있어요 !
-                    <br>앞에서 직접 만들어주셔서 초밥이 나오는 동안 구경하는 재미까지 !
-                </div>
-            </div>
-        </div>
-
-        <div class="main_text0">
-            <h1>대표 메뉴</h1>
-            <div class="service">
-                <div class="food_photo">
-                    <img src="./3/3.jpg" alt="food">
-                </div>
-                <div class="contents2">
-                    <h2>특 윤초밥</h2>
-                    가격 : 20,000
-                    <br>
-                    <br>메뉴구성 : 활어3 (광어2,도미/광어지느러미1), 연어2
-                    <br>초새우1, 간장새우1 ,참치2 (눈/참다랑어)
-                    <br>장어1(민물), 소라1, 계란1
-                    <br>총 12 피스
-                    <br>
-                    <br>다양한 구성을 저렴한 가격에 먹고 싶다면
-                    <br>특 윤초밥 조합을 추천합니다 !
-
-                </div>
-            </div>
-        </div>
-
-        <div class="main_text0" style="background-color: #e7e7e7;">
-            <h1>위치정보 및 리뷰</h1>
-            <div class="service">
-                <div class="food_photo">
-                    <div id="daumRoughmapContainer1730285775105" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-                    <script charset="UTF-8">
-                        new daum.roughmap.Lander({
-                            "timestamp": "1730285775105",
-                            "key": "2m3xf",
-                            "mapWidth": "600",
-                            "mapHeight": "400"
-                        }).render();
-                    </script>
-                </div>
-                <div class="contents2">
-                    <h2>영업 시간</h2>
-                    토 정기휴무 (매주 토요일)
-                    <br>일 ~ 금 11:00 - 23:00 / 15:00 - 17:00 브레이크 타임 / 22:00 라스트 오더<br><br><br>
-                    <h2>네티즌 리뷰</h2>
-                    yoo**** : 친절해요 , 혼밥하기 좋아요 / ⭐⭐⭐⭐⭐<br>
-                    bom**** : 재료가 신선해요 , 음식이 맛있어요 / ⭐⭐⭐⭐⭐<br>
-                    ho9**** : 특별한 날 가기 좋아요 / ⭐⭐⭐⭐<br>
-                    ahj**** : 친절해요 , 음식이 맛있어요 / ⭐⭐⭐⭐<br>
-                    ttt**** : 가성비가 좋아요 / ⭐⭐⭐⭐<br>
-                    rka**** : 음식이 맛있어요 / ⭐⭐⭐⭐
-
-                </div>
-            </div>
-
-            <div class="main_text1">
-                <ul>
-                    <li>
+                <div class="entry-content">
+                    <center>
+                        <br><br>
+						<div id="daumRoughmapContainer1732687344697" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+						<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+						<script charset="UTF-8">
+							new daum.roughmap.Lander({
+								"timestamp" : "1732687344697",
+								"key" : "2mcpz",
+								"mapWidth" : "640",
+								"mapHeight" : "360"
+							}).render();
+						</script>
+                        <br><br>
+                    </center>
+                    <br><br><h4 align="center">오늘은 제가 안산대 가성비 맛집 마루 부리또에서 먹었던 걸
+					<br>
+					포스팅하려고 왔어요 ! 리뷰 고고 ~~ !</h4><br><br><br><br>
+                    <span>몇 년째 이집 부리또만 먹는데 나만의 부리또 맛집 마루부리또를 소개 드릴까 합니다.<br><br>나만의 안산 맛집이기도 해요 !<br><br>운영시간은 매일 오전 10시 부터 오후 10시까지 입니다.</span>
+                    <span><img class="figure-img3" src="./10/1.jpg"></span>
+                    <figcaption>건물 외부</figcaption>
+					<span>한글로 써진 글씨가 굉장히 멋스러운 간판이죠?<br><br>저는 한글이 주는 멋을 굉장히 좋아하는데요, 여기서도 그런 멋이 보여서 좋더라구요 !</span><br>
+					<span><img class="figure-img3" src="./10/4.jpg"></span>
+					<br><br><br><span>테이크 아웃 전문으로 하시는지<br>테이크 아웃을 굉장히 크게 적어두셨더라구요!</span><br>
+					<span><img class="figure-img3" src="./10/5.jpg"></span>
+					<br><br><br><span>매장 앞에 줄서있는 사장님이 키우시는 것 같은<br>작고 귀여운 식물들 이에요 ㅎㅎ</span><br>
+                    <span><br><img class="figure-img" src="./10/2.jpg"><img class="figure-img" src="./10/3.jpg"></span>
+                    <figcaption>인테리어</figcaption>
+                    <span>매장이 크지는 않지만 여러 테이블이 있어서 대학교 친구들과 밥 먹는 시간이 겹치지 않으면 자리가 넉넉한 편이에요 !</span><br>
+					<span><br><img class="figure-img" src="./10/11.jpg"><img class="figure-img" src="./10/12.jpg"></span>
+					<br><br><br><span>각종 음료수와 버드와이저 맥주로 꽉꽉 채워져 있어요 !<br><br>부엉이 그림이나 인형은 집에 갖고 있으면<br>복이 있는다는데 앤틱한 소품으로도 예쁘더라구요 !</span><br>
+					<span><img class="figure-img3" src="./10/6.jpg"></span>
+					<br><br><br><span>안산대학교 인근이지만 주차 자리는 따로 없어서 도로에 잠시 주차하면 되고 예약도 가능해요 !<br>15,000원 이상 배달의 민족으로 배달도 가능해요 !</span><br>
+					<span><img class="figure-img3" src="./10/7.jpg"></span>
+					<br><br><br><span>필요한 식기류는 셀프입니다.<br>정수기는 없지만 정수기 역할을 해주고 물을 먹을 수 있어요.<br>포트 옆에 보면 있어요 !</span><br>
+                    <span><br><img class="figure-img3" src="./10/8.jpg"></span>
+                    <figcaption>메뉴판</figcaption>
+                    <span>안산 부리또 맛집 마루부리또의 메뉴판 입니다.<br>주문은 키오스크로 가능하고 메뉴도 다양하게 있어 고를 수 있어요<br>뭐 먹을지 고민하는데 항상 먹던 것만 먹게 되네요 ㅎㅎ<br>저희는 치킨라이스와 소고기 베이컨 감자 두개를 주문 했어요 !</span><br>
+                    <span><br><img class="figure-img" src="./10/9.jpg"><img class="figure-img" src="./10/10.jpg"></span>
+                    <span><br><br><br>사이드 메뉴도 있고 세트메뉴도 있어요 또 점보 사이즈로 변경도 가능해요 !</span><br>
+                    <span><img class="figure-img3" src="./10/13.jpg"></span>
+                    <span><br><br><br>치킨 라이스 부리또 ~~<br>앞글자만 줄여서 보기 쉽게 써주신<br>센스쟁이 사장님 👍</span><br>
+                    <span><br><img class="figure-img3" src="./10/14.jpg"></span>
+                    <span><br><br><br>주현이는 맛 고를때 매운 맛 골랐는데 꽤 ~~ 매웠다고 하더라구요.</span><br><br>
+                    <span><img class="figure-img3" src="./10/15.jpg"></span>
+                    <span><br><br><br>이건 저의 소고기 베이컨 감자 !<br>여기에도 마찬가지로 메뉴명이 적혀있어서<br>여러명이 먹을 때 아주 좋을 것 같았어요 !</span><br>
+                    <span><br><img class="figure-img3" src="./10/16.jpg"></span>
+					<span><br><br><br>크 단면에 보이는 소고기 👍<br>저는 안매운 맛 골랐는데<br>먹고도 매운 맛 전혀 없고<br>야채도 아삭 싱싱해서 맛있더라구요!<br></span><br><br><br>
+                    <div class="best-info">
+                        <span>
+                            <h1 class="title">마루부리또</h1><br>
+                        </span>
                         <div>
-                            <h1>MAINPAGE</h1>
+                            <span class="mr-30">주소 : </span><span class="sp-content">경기 안산시 상록구 안산대학로 164</span>
                         </div>
-                        <div>더 많은 맛집 정보를 찾아보세요</div>
-                        <div OnClick="location.href ='https://ks01lte.github.io/index.html'" class="mainbutton">메인페이지 돌아가기</div>
-                    </li>
-                    <li></li>
-                </ul>
-            </div>
-
-            <footer>
-                <div>
-                    <br>
-                    COPYRIGHT © 사나없이사나마나샤샤샤조
-                    <br><br>
+                        <div>
+                            <span class="mr-30">전화번호 : </span><span class="sp-content">010-5606-1704</span>
+                        </div>
+                        <div>
+                            <span class="mr-30">음식 종류 : </span><span class="sp-content">양식</span>
+                        </div>
+                        <div>
+                            <span class="mr-30">가격대 : </span><span class="sp-content">\4,000 ~ \9,000</span>
+                        </div>
+                        <div>
+                            <span class="mr-30">웹사이트 : </span><span class="sp-content"><a href="https://map.naver.com/p/entry/place/1680203533?c=15.00,0,0,0,dh&placePath=/home" target="_blank">식당 정보 바로가기</a></span><br><br><br>
+                        </div>
+                    </div>
+                    <div id="to-top" style="transform: translate(0px, 0px);">
+                        <div class="material-icons">arrow_upward</div>
+                    </div>
                 </div>
-            </footer>
-        </div>
-
-        <!-- ajax -->
-        <div class="popup_bg">
-            <div class="popup"></div>
-        </div>
+            </div>
+        </article>
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5">
+                <p class="m-0 text-center text-white">Copyright &copy; 사나없이사나마나샤샤샤조</p>
+            </div>
+        </footer>
+    </section>
 </body>
 
 </html>
